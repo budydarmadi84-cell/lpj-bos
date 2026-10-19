@@ -1,0 +1,33 @@
+{
+  "appId": "id.sch.lpjbos.desktop",
+  "productName": "LPJ BOS Desktop",
+  "copyright": "Copyright © 2022-2026 Pengelola BOS Sekolah",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "executableName": "LPJ-BOS-Desktop"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "LPJ BOS Desktop",
+    "deleteAppDataOnUninstall": false
+  }
+}

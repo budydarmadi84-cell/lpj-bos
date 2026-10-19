@@ -1,0 +1,6 @@
+{
+  "name": "LPJ BOS Desktop - Aplikasi Pengelolaan & SPJ BOS Offline",
+  "description": "Aplikasi desktop offline pengelolaan Laporan Pertanggungjawaban (LPJ) BOS, Buku Kas Umum, dokumentasi belanja, foto barang, generator SPJ PDF, dan arsip lokal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
